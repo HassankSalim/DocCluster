@@ -2,6 +2,8 @@
 
 ## Clustering scraped techcrunch with Spark
 
+### Data Collecting Part
+
 1. [singletechcrunchpaper.py](https://github.com/HassankSalim/DocCluster/blob/master/singletechcrunchpaper.py)
     * Python script to scrap a single TechCrunch Page / Article
 
@@ -11,7 +13,7 @@
 3. [scrapyTechCrunch.sh](https://github.com/HassankSalim/DocCluster/blob/master/scrapyTechCrunch.sh)
     * Script for the crontab job, run excatly one time everyday.
 
-## Technology Used
+#### Technology Used
 
 1. Python libs
     * [Scrapy](https://scrapy.org/)
