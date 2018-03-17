@@ -11,6 +11,9 @@ libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.5" % "test"
 libraryDependencies ++= {
   val sparkVer = "2.1.0"
   Seq(
-    "org.apache.spark" %% "spark-core" % sparkVer
+    "org.apache.spark" %% "spark-core" % sparkVer,
+    "org.apache.spark" %% "spark-sql" % "2.1.0",
+    "org.mongodb.spark" %% "mongo-spark-connector" % "2.1.0"
+
   )
 }
