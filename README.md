@@ -5,13 +5,18 @@
 ### Data Collecting Part
 
 1. [singletechcrunchpaper.py](https://github.com/HassankSalim/DocCluster/blob/master/pythonFile/singletechcrunchpaper.py)
-    * Python script to scrap a single TechCrunch Page / Article
+    * Python script to scrap a single TechCrunch Page / Article and write to MongoDb hosted in mlab
 
 2. [techcrunch.py](https://github.com/HassankSalim/DocCluster/blob/master/pythonFile/techcrunch.py)
     * Find all the latest post url and pass it to singletechcrunchpaper.py.
 
 3. [scrapyTechCrunch.sh](https://github.com/HassankSalim/DocCluster/blob/master/pythonFile/scrapyTechCrunch.sh)
     * Script for the crontab job, run excatly one time everyday.
+
+### Data Read Part
+
+1. [SparkMongoConnector.scala](https://github.com/HassankSalim/DocCluster/blob/master/src/main/scala/SparkMongoConnector.scala)
+    * Scala singleton class to connect and perform basic operation on data
 
 #### Technology Used
 
