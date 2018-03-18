@@ -1,6 +1,6 @@
 # DocCluster
 
-## Clustering scraped techcrunch with Spark
+## Clustering scraped techcrunch articles with Spark
 
 ### Data Collecting Part
 
@@ -22,5 +22,11 @@
 2. DB Used
     * [MongoDB](https://www.mongodb.com/)
 
-3. Os scheduling
+3. DB Connector
+    * [Spark MongoDB Connector](https://docs.mongodb.com/spark-connector/current/)
+
+4. Data Processing 
+    * [Apache Spark](https://spark.apache.org/)
+    
+5. Os scheduling
     * [Crontab](https://www.computerhope.com/unix/ucrontab.htm)
