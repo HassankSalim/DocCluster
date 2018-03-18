@@ -4,13 +4,13 @@
 
 ### Data Collecting Part
 
-1. [singletechcrunchpaper.py](https://github.com/HassankSalim/DocCluster/blob/master/singletechcrunchpaper.py)
+1. [singletechcrunchpaper.py](https://github.com/HassankSalim/DocCluster/blob/master/pythonFile/singletechcrunchpaper.py)
     * Python script to scrap a single TechCrunch Page / Article
 
-2. [techcrunch.py](https://github.com/HassankSalim/DocCluster/blob/master/techcrunch.py)
+2. [techcrunch.py](https://github.com/HassankSalim/DocCluster/blob/master/pythonFile/techcrunch.py)
     * Find all the latest post url and pass it to singletechcrunchpaper.py.
 
-3. [scrapyTechCrunch.sh](https://github.com/HassankSalim/DocCluster/blob/master/scrapyTechCrunch.sh)
+3. [scrapyTechCrunch.sh](https://github.com/HassankSalim/DocCluster/blob/master/pythonFile/scrapyTechCrunch.sh)
     * Script for the crontab job, run excatly one time everyday.
 
 #### Technology Used
