@@ -7,15 +7,10 @@ import org.bson.Document
 
 object SparkMongoConnector {
 
-  var sc : SparkContext = _
   var sparkSess : SparkSession = _
   var rdd : MongoRDD[Document] = _
 
   def apply(appName: String, inUrl: String, outUrl : String = "") = {
-    val conf = new SparkConf()
-    conf.setMaster("local")
-    conf.setAppName(appName)
-    sc = new SparkContext(conf)
 
     val spark = SparkSession.builder()
       .master("local")
@@ -24,9 +19,9 @@ object SparkMongoConnector {
       .config("spark.mongodb.output.uri", outUrl)
       .getOrCreate()
 
-    rdd = MongoSpark.load(sc)
-
   }
+
+  def loadRdd(sc : SparkContext) = rdd = MongoSpark.load(sc)
 
   def getCount() = rdd.count()
 
