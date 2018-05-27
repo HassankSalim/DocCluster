@@ -35,3 +35,7 @@
     
 5. Os scheduling
     * [Crontab](https://www.computerhope.com/unix/ucrontab.htm)
+
+### To Run files needed
+
+1. application.conf file which contains the mongoDb username and password and link
