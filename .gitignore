@@ -1,6 +1,8 @@
 __pycache__
 *.pyc
 target/
+src/main/resources/application.conf
+src/test/resources/application.conf
 .idea
 src/main/scala/TestScript.scala
 
